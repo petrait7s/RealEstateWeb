@@ -1,0 +1,63 @@
+{
+  "brand": { "tagline": "Crafting spaces worth coming home to" },
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About",
+    "gallery": "Gallery",
+    "news": "News",
+    "contact": "Contact",
+    "bookVisit": "Book a visit",
+    "menu": "Menu",
+    "close": "Close"
+  },
+  "theme": { "toLight": "Switch to light mode", "toDark": "Switch to dark mode" },
+  "locale": { "switch": "বাংলা" },
+  "hero": {
+    "eyebrow": "Residential & commercial developer",
+    "title": "Architecture that elevates the way you live.",
+    "subtitle": "Premium flats, plots and villas across Bangladesh — designed with care, delivered with trust.",
+    "cta": "Explore projects",
+    "ctaSecondary": "Book a site visit",
+    "scroll": "Scroll"
+  },
+  "search": {
+    "type": "Type",
+    "location": "Location",
+    "price": "Budget",
+    "size": "Size",
+    "status": "Status",
+    "submit": "Search",
+    "any": "Any"
+  },
+  "stats": {
+    "title": "Why choose us",
+    "projects": "Projects delivered",
+    "families": "Happy families",
+    "sqft": "Sq ft built",
+    "years": "Years of trust"
+  },
+  "partners": { "title": "Trusted by partners and lenders" },
+  "cta": {
+    "title": "Walk the site before you decide.",
+    "body": "Book a private visit with our sales team and see your future home in person.",
+    "button": "Book a site visit"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "explore": "Explore",
+    "contact": "Contact",
+    "legal": "Legal",
+    "privacy": "Privacy",
+    "terms": "Terms"
+  },
+  "preloader": { "loading": "Loading" },
+  "errors": {
+    "notFoundTitle": "This page wandered off.",
+    "notFoundBody": "The page you are looking for does not exist or has moved.",
+    "backHome": "Back to home",
+    "errorTitle": "Something went wrong.",
+    "errorBody": "An unexpected error occurred. Please try again.",
+    "retry": "Try again"
+  }
+}

@@ -1,0 +1,60 @@
+/* Design tokens. Overridable at runtime by the admin Theme Editor
+   (injected as a <style id="theme-overrides"> from theme_settings). */
+:root {
+  /* palette — light */
+  --background: #f7f3ec;
+  --foreground: #16140f;
+  --surface: #fffdf8;
+  --surface-2: #efe9dd;
+  --muted: #6b655a;
+  --border: rgb(22 20 15 / 0.12);
+  --accent: #b8934d;
+  --accent-2: #e2c785;
+  --accent-foreground: #16140f;
+  --success: #3f8f5f;
+  --warning: #c98a2b;
+  --danger: #b4443b;
+  --info: #3c6e9e;
+
+  /* status colors for inventory */
+  --status-available: #3f8f5f;
+  --status-booked: #c98a2b;
+  --status-sold: #b4443b;
+  --status-hold: #7a6aa8;
+
+  /* shape + depth */
+  --radius: 0.875rem;
+  --radius-lg: 1.5rem;
+  --shadow-soft: 0 1px 2px rgb(22 20 15 / 0.05), 0 12px 32px -12px rgb(22 20 15 / 0.18);
+  --shadow-lift: 0 2px 4px rgb(22 20 15 / 0.06), 0 32px 64px -24px rgb(22 20 15 / 0.35);
+
+  /* type */
+  --font-display: "Playfair Display Variable", "Noto Serif Bengali Variable", Georgia, serif;
+  --font-sans: "Inter Variable", "Hind Siliguri", system-ui, sans-serif;
+
+  /* motion: 0 disables decorative motion, 1 default, up to 1.5 */
+  --motion-intensity: 1;
+  --ease-premium: cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* gradients */
+  --gold-gradient: linear-gradient(135deg, var(--accent-2), var(--accent) 55%, #8f6f33);
+}
+
+[data-theme="dark"] {
+  --background: #0e0d0a;
+  --foreground: #f3eee3;
+  --surface: #17150f;
+  --surface-2: #211e16;
+  --muted: #a39c8d;
+  --border: rgb(243 238 227 / 0.14);
+  --accent: #d2ad69;
+  --accent-2: #f0d9a2;
+  --accent-foreground: #0e0d0a;
+  --shadow-soft: 0 1px 2px rgb(0 0 0 / 0.4), 0 12px 32px -12px rgb(0 0 0 / 0.6);
+  --shadow-lift: 0 2px 4px rgb(0 0 0 / 0.4), 0 32px 64px -24px rgb(0 0 0 / 0.8);
+}
+
+:lang(bn) {
+  --font-display: "Noto Serif Bengali Variable", "Playfair Display Variable", serif;
+  --font-sans: "Hind Siliguri", "Inter Variable", system-ui, sans-serif;
+}
