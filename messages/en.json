@@ -1,5 +1,7 @@
 {
-  "brand": { "tagline": "Crafting spaces worth coming home to" },
+  "brand": {
+    "tagline": "Crafting spaces worth coming home to"
+  },
   "nav": {
     "home": "Home",
     "projects": "Projects",
@@ -11,8 +13,13 @@
     "menu": "Menu",
     "close": "Close"
   },
-  "theme": { "toLight": "Switch to light mode", "toDark": "Switch to dark mode" },
-  "locale": { "switch": "বাংলা" },
+  "theme": {
+    "toLight": "Switch to light mode",
+    "toDark": "Switch to dark mode"
+  },
+  "locale": {
+    "switch": "বাংলা"
+  },
   "hero": {
     "eyebrow": "Residential & commercial developer",
     "title": "Architecture that elevates the way you live.",
@@ -37,7 +44,9 @@
     "sqft": "Sq ft built",
     "years": "Years of trust"
   },
-  "partners": { "title": "Trusted by partners and lenders" },
+  "partners": {
+    "title": "Trusted by partners and lenders"
+  },
   "cta": {
     "title": "Walk the site before you decide.",
     "body": "Book a private visit with our sales team and see your future home in person.",
@@ -51,7 +60,9 @@
     "privacy": "Privacy",
     "terms": "Terms"
   },
-  "preloader": { "loading": "Loading" },
+  "preloader": {
+    "loading": "Loading"
+  },
   "errors": {
     "notFoundTitle": "This page wandered off.",
     "notFoundBody": "The page you are looking for does not exist or has moved.",
@@ -59,5 +70,191 @@
     "errorTitle": "Something went wrong.",
     "errorBody": "An unexpected error occurred. Please try again.",
     "retry": "Try again"
+  },
+  "status": {
+    "ongoing": "Ongoing",
+    "upcoming": "Upcoming",
+    "completed": "Completed",
+    "available": "Available",
+    "booked": "Booked",
+    "sold": "Sold",
+    "hold": "On hold"
+  },
+  "type": {
+    "flat": "Flat",
+    "plot": "Plot",
+    "villa": "Villa",
+    "commercial": "Commercial"
+  },
+  "amenity": {
+    "pool": "Infinity pool",
+    "gym": "Fitness studio",
+    "spa": "Spa & sauna",
+    "garden": "Landscaped garden",
+    "parking": "Covered parking",
+    "security": "24/7 security",
+    "clubhouse": "Clubhouse",
+    "park": "Central park",
+    "mosque": "Mosque",
+    "roads": "Paved roads"
+  },
+  "projects": {
+    "title": "Our projects",
+    "subtitle": "Flats, plots, villas and commercial spaces — ongoing, upcoming and delivered.",
+    "status": "Status",
+    "location": "Location",
+    "type": "Type",
+    "budget": "Budget",
+    "sort": "Sort",
+    "all": "All",
+    "reset": "Reset filters",
+    "grid": "Grid",
+    "map": "Map",
+    "results": "{count, plural, one {# project} other {# projects}}",
+    "empty": "No projects match.",
+    "emptyBody": "Try removing a filter or two.",
+    "from": "From",
+    "handover": "Handover",
+    "view": "View project",
+    "sortFeatured": "Featured",
+    "sortAsc": "Price: low to high",
+    "sortDesc": "Price: high to low",
+    "b1": "Under ৳1.5 Cr",
+    "b2": "৳1.5 – 3 Cr",
+    "b3": "Over ৳3 Cr",
+    "mapLabel": "Project locations"
+  },
+  "home": {
+    "featured": "Featured projects",
+    "featuredSub": "Drag to explore",
+    "tabs": "Our portfolio",
+    "tourTitle": "Step inside before it is built.",
+    "tourBody": "Orbit the building in 3D, walk the sample flat in 360° and see live availability.",
+    "tourCta": "Take the virtual tour",
+    "testimonials": "What residents say",
+    "news": "News & insights",
+    "readMore": "Read more",
+    "viewAll": "View all"
+  },
+  "detail": {
+    "overview": "Overview",
+    "units": "Flats",
+    "plots": "Plots",
+    "tools": "Tools",
+    "amenities": "Amenities",
+    "location": "Location",
+    "enquire": "Enquire",
+    "keyFacts": "Key facts",
+    "floors": "Floors",
+    "beds": "Bedrooms",
+    "size": "Size",
+    "priceFrom": "Starting price",
+    "handover": "Handover",
+    "type": "Type",
+    "floor": "Floor",
+    "facing": "Facing",
+    "baths": "Baths",
+    "price": "Price",
+    "sqft": "sq ft",
+    "katha": "katha",
+    "unit": "Unit",
+    "plot": "Plot",
+    "selectUnit": "Select a unit",
+    "pickHint": "Pick an available unit to see details and request a booking.",
+    "bookUnit": "Request booking",
+    "save": "Save",
+    "saved": "Saved",
+    "compare": "Compare",
+    "comparing": "Comparing",
+    "compareMax": "Compare up to 3 units",
+    "clear": "Clear",
+    "searchPlot": "Search plot no.",
+    "legend": "Status",
+    "road": "Road width",
+    "corner": "Corner",
+    "parkFacing": "Park-facing",
+    "zoomIn": "Zoom in",
+    "zoomOut": "Zoom out",
+    "resetView": "Reset view",
+    "masterplan": "Master plan",
+    "liveNote": "Availability updates live",
+    "share": "Share",
+    "brochure": "Download brochure",
+    "schedule": "Schedule a visit",
+    "modelSoon": "3D model, 360° tour and building showcase",
+    "modelSoonBody": "Interactive 3D viewer, panorama tour and floor-by-floor showcase appear here once media is uploaded.",
+    "comingSoon": "Coming soon",
+    "related": "Related projects",
+    "close": "Close",
+    "filterAvail": "Available only",
+    "floorN": "Floor {n}"
+  },
+  "form": {
+    "name": "Full name",
+    "phone": "Phone",
+    "email": "Email",
+    "message": "Message",
+    "payment": "Payment preference",
+    "cash": "Cash / installment",
+    "loan": "Bank loan",
+    "submit": "Send enquiry",
+    "sending": "Sending…",
+    "thanks": "Thank you — our team will call you shortly.",
+    "required": "This field is required",
+    "invalidPhone": "Enter a valid phone number",
+    "invalidEmail": "Enter a valid email",
+    "visitDate": "Preferred visit date"
+  },
+  "calc": {
+    "title": "Tools",
+    "emi": "EMI calculator",
+    "loan": "Loan amount (৳)",
+    "rate": "Interest rate (% p.a.)",
+    "years": "Tenure (years)",
+    "monthly": "Monthly EMI",
+    "interest": "Total interest",
+    "total": "Total payable",
+    "principal": "Principal",
+    "ppsf": "Price per sq ft",
+    "convert": "Area converter",
+    "value": "Value",
+    "from": "From",
+    "to": "To",
+    "totalPrice": "Total price (৳)",
+    "area": "Area (sq ft)",
+    "result": "Result"
+  },
+  "about": {
+    "title": "About us",
+    "lead": "We build homes the way we would want to live in them — patiently, precisely, and in plain sight.",
+    "body": "Founded in 2008, we develop residential and commercial properties across Dhaka. Every project is delivered with transparent pricing, verified titles and a handover schedule we commit to in writing.",
+    "team": "Leadership",
+    "values": "What we stand for",
+    "v1": "Transparency",
+    "v1b": "Published prices, live availability and clear papers.",
+    "v2": "Craft",
+    "v2b": "Architects and engineers obsessed with detail.",
+    "v3": "Trust",
+    "v3b": "On-time handover backed by written commitments."
+  },
+  "contact": {
+    "title": "Contact us",
+    "lead": "Visit, call or write. We reply within one working day.",
+    "address": "Address",
+    "hours": "Office hours",
+    "hoursValue": "Sat–Thu, 9:00–18:00"
+  },
+  "gallery": {
+    "title": "Gallery",
+    "lead": "Renders, site progress and delivered homes."
+  },
+  "newsPage": {
+    "title": "News & insights",
+    "lead": "Updates from our sites and guides for buyers."
+  },
+  "legal": {
+    "privacy": "Privacy policy",
+    "terms": "Terms of use",
+    "body": "This is placeholder legal text. Replace it from the admin CMS before launch."
   }
 }

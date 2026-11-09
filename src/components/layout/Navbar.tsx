@@ -38,14 +38,17 @@ export function Navbar({ brand }: { brand: string }) {
       className={cn(
         "fixed inset-x-0 top-0 z-50 transition-all duration-500 ease-[var(--ease-premium)]",
         scrolled ? "glass py-3" : "py-5",
-        pathname === "/" && !scrolled && "text-[#f3eee3]",
+        (pathname === "/" || pathname.startsWith("/projects/")) && !scrolled && "text-[#f3eee3]",
       )}
     >
       <nav
         aria-label="Primary"
         className="mx-auto flex max-w-[1600px] items-center justify-between gap-4 px-4 sm:px-8"
       >
-        <Link href="/" className="font-display text-xl tracking-tight sm:text-2xl">
+        <Link
+          href="/"
+          className="font-display text-lg tracking-tight whitespace-nowrap sm:text-2xl"
+        >
           {brand}
         </Link>
 

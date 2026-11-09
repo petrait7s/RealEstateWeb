@@ -11,7 +11,7 @@
 - [x] UI primitives: Button, Badge, Skeleton, Input
 - [x] Navbar, Footer, WhatsApp button, branded 404/500
 - [x] Home shell: hero + search, partners marquee, stats, CTA
-- [ ] Remaining Home sections (featured carousel, tabs, tour teaser, testimonials, news) — Phase 3
+- [x] Home: featured drag carousel, status tabs, tour teaser, testimonials, news
 
 ## Phase 2 — Supabase schema, seed, auth, RLS (next)
 
@@ -24,3 +24,14 @@
 ## Phase 6 — Admin CMS
 
 ## Phase 7 — SEO, perf, a11y, tests, docs
+
+## Frontend/UI pass (mock data, no backend yet)
+
+- [x] Projects listing: URL-synced filters, sort, grid/map toggle (SVG map), empty + skeleton states
+- [x] Project detail: parallax hero, sticky scroll-spy subnav, key facts, amenities, enquiry sidebar, JSON-LD
+- [x] Flat stack with live-style status colours, unit drawer, compare (max 3), favourites
+- [x] Plot master plan: SVG zoom/pan, minimap, search, filters, plot drawer
+- [x] EMI calculator (animated donut), price/sq ft, area converter (unit-tested)
+- [x] About, Contact, Gallery, News, Legal pages
+- [ ] 3D viewer, 360 tour, building showcase, sample flat (placeholder section only)
+- [ ] Booking submit is stubbed (no backend); data is mock in `src/lib/mock/data.ts`

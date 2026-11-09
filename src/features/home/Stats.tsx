@@ -20,7 +20,7 @@ export function Stats() {
       <Stagger className="border-border bg-border mt-16 grid grid-cols-2 gap-px overflow-hidden rounded-xl border lg:grid-cols-4">
         {stats.map((s) => (
           <RevealItem key={s.key} className="bg-background p-6 sm:p-10">
-            <p className="text-gold font-display text-[length:var(--text-h1)] leading-none">
+            <p className="text-gold font-display text-[length:var(--text-h2)] leading-none">
               <Counter to={s.to} suffix={s.suffix} locale={locale} />
             </p>
             <p className="text-muted mt-4 text-sm tracking-wide">{t(s.key)}</p>
